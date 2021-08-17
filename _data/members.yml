@@ -2,67 +2,61 @@
   name: Francis Bisong
   # position: Founder
   socials:
-    - link: http://twitter.com
+    - link: members/francis.html
       icon: bio
-  # desc:
-  #   Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+  
 - avatar: images/@member/lizzy.png
   name: Elizabeth Essien
   # position: Creative Director
   socials:
-    - link: http://twitter.com
+    - link: members/elizabeth.html
       icon: bio
-  # desc:
-  #   Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+  
 - avatar: images/@member/chidi.png
   name: Chidi Magnus
   # position: Designer
   socials:
-    - llink: http://twitter.com
+    - link: members/chidi.html
       icon: bio
-  # desc:
-  #   Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+  
 - avatar: images/@member/odigha.png
   name: Odigha Odigha
   # position: Developer
   socials:
-    - llink: http://twitter.com
+    - link: members/odigha.html
       icon: bio
-
-  # desc:
-  #   Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
 
 - avatar: images/@member/enoabasi.png
   name: Enoabasi Anwana
   # position: Developer
   socials:
-    - llink: http://twitter.com
+    - link: members/enoabasi.html
       icon: bio
 
 - avatar: images/@member/jackson.png
   name: Jackson Akor
   # position: Developer
   socials:
-    - llink: http://twitter.com
+    # - link: members/jackson.html
       icon: bio
 
 - avatar: images/@member/taiwo.png
   name: Taiwo Adediran
   # position: Developer
   socials:
-    - llink: http://twitter.com
+    # - link: members/taiwo.html
       icon: bio
 
 - avatar: images/@member/chidera.png
   name: Chidera Bisong
   # position: Developer
   socials:
-    - llink: http://twitter.com
+    # - link: members/chidera.html
       icon: bio
 
 - avatar: images/@member/ekaba.png
   name: Ekaba Bisong
   # position: Developer
   socials:
-    - llink: http://twitter.com
+    - link: members/ekaba.html
       icon: bio
