@@ -1,44 +1,68 @@
-- avatar: images/@stock/member-1.jpg
-  name: Mark Wayne
-  position: Founder
+- avatar: images/@member/francis.png
+  name: Francis Bisong
+  # position: Founder
   socials:
     - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/@stock/member-2.jpg
-  name: Kate Holms
-  position: Creative Director
+      icon: bio
+  # desc:
+  #   Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+- avatar: images/@member/lizzy.png
+  name: Elizabeth Essien
+  # position: Creative Director
   socials:
     - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
-    - link: http://dribbble.com
-      icon: dribbble
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/@stock/member-3.jpg
-  name: Tome Hason
-  position: Designer
+      icon: bio
+  # desc:
+  #   Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+- avatar: images/@member/chidi.png
+  name: Chidi Magnus
+  # position: Designer
   socials:
-    - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
-    - link: http://tumblr.com
-      icon: tumblr
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/@stock/member-4.jpg
-  name: Lily Whrem
-  position: Developer
+    - llink: http://twitter.com
+      icon: bio
+  # desc:
+  #   Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+- avatar: images/@member/odigha.png
+  name: Odigha Odigha
+  # position: Developer
   socials:
-    - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+    - llink: http://twitter.com
+      icon: bio
+
+  # desc:
+  #   Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+
+- avatar: images/@member/enoabasi.png
+  name: Enoabasi Anwana
+  # position: Developer
+  socials:
+    - llink: http://twitter.com
+      icon: bio
+
+- avatar: images/@member/jackson.png
+  name: Jackson Akor
+  # position: Developer
+  socials:
+    - llink: http://twitter.com
+      icon: bio
+
+- avatar: images/@member/taiwo.png
+  name: Taiwo Adediran
+  # position: Developer
+  socials:
+    - llink: http://twitter.com
+      icon: bio
+
+- avatar: images/@member/chidera.png
+  name: Chidera Bisong
+  # position: Developer
+  socials:
+    - llink: http://twitter.com
+      icon: bio
+
+- avatar: images/@member/ekaba.png
+  name: Ekaba Bisong
+  # position: Developer
+  socials:
+    - llink: http://twitter.com
+      icon: bio
