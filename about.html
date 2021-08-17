@@ -2,28 +2,12 @@
 layout: default
 title: About
 section_id: about
-skills:
-  - title: Web Design
-    percentage: 84
-  - title: Web Development
-    percentage: 95
-  - title: Site Management
-    percentage: 70
-  - title: Branding
-    percentage: 61
-testimonials:
-  - quote: Reprehenderit eos et non et ut eum reprehenderit quis sequi quia vel repellendus id. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est.
-    author: David White, Designer at Huglab
-  - quote: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
-    author: David White, Designer at Huglab
-  - quote: Reprehenderit eos et non et ut eum reprehenderit quis sequi quia vel repellendus id. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est.
-    author: David White, Designer at Huglab
 ---
 
-<div class='full parallax' style='background-image: url(images/@stock/about-us.jpg); color: #fff;'>
+<div class='full parallax' style='background-image: url(images/banner_1.png); color: #fff;'>
   <div class='row'>
     <div class='twelve columns'>
-      {% include section-header.html title="About us" color="#fff" tagline="Know something about our team" class="big" %}
+      {% include section-header.html title="About us" color="#fff" class="big" %}
     </div>
   </div>
   <div class='four spacing'></div>
@@ -31,26 +15,43 @@ testimonials:
 
 <div class='full'>
   <div class='row'>
-    <div class='medium-6 columns'>
-      <h3>Our history</h3>
-      <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p>
-    </div>
-    <div class='medium-6 columns'>
-      <h3>Our skills</h3>
-      <div class='mod modBarGraph'>
-        <ul class='bars'>
-          {% for skill in page.skills %}
-            <li>
-              <h4 style=''>
-                {{skill.title}}
-                <strong>{{skill.percentage}}%</strong>
-              </h4>
-              <p class='highlighted' data-percent='{{skill.percentage}}'></p>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
+    <div class='medium-12 columns'>
+      <h3>Who we are</h3>
+      <p>The African Green Growth and Development Forum (AGDF) is an eco-development friendly organization comprising of distinguished multi-disciplinary stakeholders in the private, public and CSOs sectors. AGDF Members are motivated by the need to adopt rational, robust and pragmatic approaches toward building sustainable practices and policies for enhanced socio-economic development in Africa.</p>
+      <p>Established in 2018, AGDF is a legally registered Non-Profit, Professional Organization with CAC registration No.: CAC/IT/NO 135940 in Nigeria. The African Green Growth and Development Forum is committed to promoting harmonious sector-driven natural resource management that align to maintaining the technological styles for ecological integrity of nature with productive results for green livelihood.</p>
+      <p>The emergence of AGDF is as a result of the prevailing environmental challenges within the local, national and global public spaces which call for holistic rationalization of human actions along common grounds to unite the much-needed human well-being and survival through conserving pristine ecosystems and environmental assets, secure decent and dignified living conditions for societies that fully promote the tenets for building a circular economy.</p>
+      <p>In AGDF, we strongly believe that viable economic ventures that promote ecological functions and stability through the reduction of environmental resources deterioration provide lasting enormous sustainable livelihood opportunities to a people. The African Green Growth and Development (AGDF) operates by engaging and partnering with relevant institutions or bodies towards developing sustainable ventures that aim at eliminating poverty while increasing the impact of the green economy as a sustainability stay for the present and future generation.</p>
+
+      <h3>Vision</h3>
+      <p>To be a leading think tank united to aid Africa’s transition to a greener Economy.</p>
+
+      <h3>Mission</h3>
+      <p>To foster the transformation of Africa’s eco-social communities into productive sectors that are: Environmentally safe, socially just and economically sustainable.</p>
+
+      <h3>Objectives</h3>
+      <p>We are positioned to contribute our quota to address environmental concerns within the broad scope of research, environment, conservation and development, sustainability transitions, policy advocacy and poverty reduction. Specifically, our objectives involve:</p>
+      <ul>
+        <li>Conduct of research in green economy and growth opportunities (micro and macro capital assets) in Africa.</li>
+        <li>Provision of technical expertise to build the capacity of policymakers and critical stakeholders on green economy.</li>
+        <li>Promotion of green legislation that foster the emergence of robust governance and institutional arrangement.</li>
+        <li>Leverage on the existing opportunities for green financing, technologies and know-how to support the transition of communities and private sector players to green growth and investments.</li>
+        <li>Provide periodic engagement with public policy, business and academic leaders.</li>
+        <li>Encourage green entrepreneurs (small, medium and informal businesses) in African
+          communities.</li>
+        <li>Provision of periodic score sheets utilizing the best available indicators to assess and monitor country performance by sector on progress towards green growth and development.</li>
+      </ul>
+
+      <h3>Priority Areas &amp; Working Groups</h3>
+      <p>AGDF adopts a unique and pragmatic approach using priority areas to solving environmental problems through short/long-term improvement of the livelihood development options of local communities. The key priority sectors include: a) Governance and Policy Concerns b) Agriculture including aquaculture and livestock farming c) Forestry and Biodiversity d) Water resources management e) Tourism f) Renewable energy g) Waste management h) Manufacturing and i) Transport.</p>
+
+      <h3>Milestones</h3>
+      <p>Successfully inaugurated a competent Board of Trustees</p>
+      <ul>
+        <li>Supported the development of the Green Economy Framework for Cross River State in Collaboration with the Cross-River State Planning Commission and Cuso International (Canadian Non-Profit Organization).</li>
+        <li>Fully registered with the Government of Nigeria.</li>
+        <li>A steadily growing membership base.</li>
+      </ul>
+
     </div>
   </div>
 </div>
@@ -86,42 +87,3 @@ testimonials:
     {% endfor %}
   </div>
 </div>
-
-
-<div class='full parallax' style='background: #f5f5f5'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <p class='centered-text'>
-        <i class='fa fa-quote-left' style='color: #F9CE06; font-size: 36px;'></i>
-      </p>
-    </div>
-  </div>
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html title="What our clients say" %}
-      <div class='spacing'></div>
-    </div>
-  </div>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <div class='mod modTestimonials'>
-        <div class='row'>
-          <div class='small-12 columns'>
-            <div class='items centered-text'>
-              {% for testimonial in page.testimonials %}
-                <div class='item'>
-                  <p class='quote'>"{{testimonial.quote}}"</p>
-                  <p class='author'>- {{testimonial.author}}</p>
-                  <div class='two spacing'></div>
-                </div>
-              {% endfor %}
-            </div>
-          </div>
-          <div class='spacing'></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-{% include our-customers.html %}
