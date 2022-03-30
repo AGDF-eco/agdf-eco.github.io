@@ -12,12 +12,12 @@
     - link: members/elizabeth.html
       icon: bio
   
-- avatar: images/@member/chidi.png
-  name: Chidi Magnus
-  # position: Designer
-  socials:
-    - link: members/chidi.html
-      icon: bio
+# - avatar: images/@member/chidi.png
+#   name: Chidi Magnus
+#   # position: Designer
+#   socials:
+#     - link: members/chidi.html
+#       icon: bio
   
 - avatar: images/@member/odigha.png
   name: Odigha Odigha
