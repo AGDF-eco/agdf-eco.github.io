@@ -54,9 +54,9 @@
     # - link: members/chidera.html
       icon: bio
 
-- avatar: images/@member/ekaba.png
-  name: Ekaba Bisong
-  # position: Developer
-  socials:
-    - link: members/ekaba.html
-      icon: bio
+# - avatar: images/@member/ekaba.png
+#   name: Ekaba Bisong
+#   # position: Developer
+#   socials:
+#     - link: members/ekaba.html
+#       icon: bio
